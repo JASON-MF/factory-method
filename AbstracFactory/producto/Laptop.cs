@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AbstracMethod.producto
 {
-    internal class Laptop : IDispositivo
+    public class Laptop : IDispositivo
     {
         public void Encender()
         {

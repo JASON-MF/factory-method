@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AbstracMethod.Factory
 {
-    internal class TabletFactory : DispositivoFactory
+    public class TabletFactory : DispositivoFactory
     {
         public override IDispositivo DispositivoElectronico()
         {
